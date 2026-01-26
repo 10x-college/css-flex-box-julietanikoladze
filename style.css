@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+.menu-icon {
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.menu-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+} 
+
+.left-side {
+    width: 56px;
+
+}
+.left-side
+.icons ul { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+.left-side
+.icons li {
+    padding-bottom: 30px;
+    display: flex;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 30px;
+  
+}
+.top-cards {
+    display: flex;
+    gap: 30px;
+}
+.top-cards article {
+    width: 245px;
+    height: 153px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+
+}
+
+.middle-card article {
+    height: 195px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+}
+.bottom-cards {
+    display: flex;
+    gap: 20px;
+}
+.bottom-cards article {
+        width: 386px;
+        height: 157px;
+        border-radius: 20px;
+        background-color: #1D1D1D;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 110px;
+    margin-left: 37px;
+       
+}
+
+.top-right-cards {
+   
+    position: relative;
+    height: 260px;
+}
+
+    
+.rec-1 {
+    width: 218px;
+    height: 251px;
+    border: 1px;
+    border-radius: 24px;
+    background-color: #44077E;
+    position: absolute;
+    z-index: 3;
+}
+.rec-2 {
+    width: 218px;
+    height: 251px;
+    border: 1px;
+    border-radius: 24px;
+    background-color: #C68E3C;
+    position: absolute;
+    z-index: 2;
+    top: -20px;
+    left: 20px;
+    transform: rotate(12deg) ;
+}
+.rec-3 {
+    width: 218px;
+    height: 251px;
+    border: 1px;
+    border-radius: 24px;
+    background-color: #2F847F;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 40px;
+    transform: rotate(30deg);
+}
+.bottom-right-card article {
+    width: 258px;
+    height: 273px;
+    background-color: #1D1D1D;
+    border-radius: 20px;
+}
+.dashboard {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    border-radius: 24px;
+    background-color: #262525;
+
+}
+
